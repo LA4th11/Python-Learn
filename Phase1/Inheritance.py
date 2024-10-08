@@ -1,3 +1,32 @@
+""" Exercise 1: Basic Inheritance
+Create a base class called Animal that has the following:
+
+Attribute: name
+Method: make_sound() that prints "Some sound".
+Now, create two subclasses Dog and Cat that inherit from the Animal class. Each subclass should override the make_sound() method:
+
+The Dog class should print "Bark".
+The Cat class should print "Meow".
+Task: Create an instance of each class (Dog and Cat) and call their make_sound() methods.
+
+Exercise 2: Adding New Attributes in Subclass
+Create a class called Vehicle with:
+
+Attributes: brand and year.
+Method: start_engine() that prints "Engine started."
+Now, create a subclass Car that inherits from Vehicle and adds a new attribute doors (number of doors). Override the start_engine() method to print "Car engine started."
+
+Task: Create an instance of the Car class, provide the values for brand, year, and doors, and call the start_engine() method.
+
+Exercise 3: Using super() to Extend Functionality
+Create a base class called Person with:
+
+Attributes: first_name and last_name.
+Method: introduce() that prints "Hi, I'm first_name last_name."
+Now, create a subclass Student that inherits from Person and adds a new attribute student_id. The introduce() method should be extended to also print "My student ID is student_id."
+
+Task: Create an instance of the Student class, provide the values for first_name, last_name, and student_id, and call the introduce() method. """
+# -----------------------------------------------------------------------------#
 # BASIC INHERITANCE:EXERCISE 1 <----------
 """ class Animal:
   def __init__(self, name):
